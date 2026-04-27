@@ -1,0 +1,35 @@
+.gallery-section {
+  padding: 100px 20px;
+  background: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.gallery-section .section-title {
+  color: #ffffff;
+}
+
+.gallery-section .section-subtitle {
+  color: #a0aec0;
+  margin-bottom: 28px;
+}
+
+.gallery-masonry {
+  position: relative;
+  width: 100%;
+  min-height: 560px;
+}
+
+@media (max-width: 768px) {
+  .gallery-section {
+    padding: 60px 20px;
+  }
+}
+

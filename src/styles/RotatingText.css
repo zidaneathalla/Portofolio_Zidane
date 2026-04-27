@@ -1,0 +1,45 @@
+.rt-root {
+  display: inline-flex;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+.rt-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.rt-inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+.rt-lines {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.rt-split {
+  display: inline-flex;
+}
+
+.rt-element {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+.rt-space {
+  white-space: pre;
+}
+
