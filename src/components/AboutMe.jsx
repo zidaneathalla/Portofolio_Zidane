@@ -27,7 +27,7 @@ const AboutMe = () => {
             
             <div className="about-description">
               <p className="lead-text">
-                I am a 6th-semester student at IPB Vocational School majoring in Software Engineering Technology, with hands-on experience in front-end development and UI/UX design, building responsive user-friendly interfaces that feel as good as they look.
+                I am a 6th-semester student at IPB University majoring in Software Engineering Technology, with hands-on experience in front-end development and UI/UX design, building responsive user-friendly interfaces that feel as good as they look.
               </p>
               
               <p className="lead-text">
