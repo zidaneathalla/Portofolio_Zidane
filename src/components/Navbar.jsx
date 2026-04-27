@@ -28,7 +28,10 @@ export default function Navbar() {
           .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0))[0];
         if (visible?.target?.id) setActive(visible.target.id);
       },
-      { threshold: [0.2, 0.35, 0.5], rootMargin: '-20% 0px -60% 0px' }
+      { 
+        threshold: [0, 0.25, 0.5, 0.75, 1],
+        rootMargin: '0px 0px -50% 0px'
+      }
     );
 
     sections.forEach(s => observer.observe(s));
@@ -73,7 +76,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="navbar-mobile" role="dialog" aria-label="Navigation menu">
+        <div className="navbar-mobile is-open" role="dialog" aria-label="Navigation menu">
           {links.map(link => (
             <button
               key={link.id}

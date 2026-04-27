@@ -31,6 +31,7 @@
   cursor: pointer;
   padding: 6px 10px;
   border-radius: 10px;
+  transition: background 180ms ease;
 }
 
 .navbar-brand:hover {
@@ -49,15 +50,16 @@
   font-weight: 600;
   color: rgba(226, 232, 240, 0.85);
   background: transparent;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   padding: 8px 10px;
   border-radius: 999px;
-  transition: background 180ms ease, color 180ms ease;
+  transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
 }
 
 .navbar-link:hover {
   background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
 
@@ -75,6 +77,7 @@
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.08);
   cursor: pointer;
+  transition: background 180ms ease, border-color 180ms ease;
 }
 
 .navbar-toggle span {
@@ -93,6 +96,11 @@
   display: none;
 }
 
+.navbar-mobile.is-open {
+  display: block;
+  animation: slideDown 300ms ease-out forwards;
+}
+
 .navbar-mobile-link {
   width: 100%;
   text-align: left;
@@ -103,6 +111,15 @@
   color: rgba(226, 232, 240, 0.9);
   cursor: pointer;
   font-weight: 600;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+  font-family: var(--font-body);
+  font-size: 13px;
+}
+
+.navbar-mobile-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
 }
 
 .navbar-mobile-link + .navbar-mobile-link {
@@ -122,8 +139,27 @@
   .navbar-toggle {
     display: inline-block;
   }
-  .navbar-mobile {
-    display: block;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
   }
 }
 
