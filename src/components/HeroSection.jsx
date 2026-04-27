@@ -39,7 +39,7 @@ export default function HeroSection() {
           {/* Description Section */}
           <div className="hero-description-section">
             <p className="hero-description">
-              I'm Zidane Ali Athalla currently a Software Engineering student at IPB University Vocational School, passionate about crafting meaningful and user-focused digital experiences.
+              I'm Zidane Ali Athalla currently a Software Engineering student at IPB University, passionate about crafting meaningful and user-focused digital experiences.
             </p>
           </div>
 
