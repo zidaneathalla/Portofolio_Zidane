@@ -112,6 +112,21 @@ export default function Contact() {
                   decoding="async"
                 />
               </a>
+              <a
+                href="https://github.com/zidaneathalla"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link social-link--icon"
+                aria-label="GitHub"
+              >
+                <img
+                  src="https://cdn.simpleicons.org/github/ffffff"
+                  alt=""
+                  width={28}
+                  height={28}
+                  decoding="async"
+                />
+              </a>
             </div>
           </div>
 
