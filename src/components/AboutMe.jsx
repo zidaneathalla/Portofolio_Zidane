@@ -31,7 +31,7 @@ const AboutMe = () => {
               </p>
               
               <p className="lead-text">
-                Through active organizational involvement, I have learned to work as a team with good communication and creativity skills that directly enhance how I collaborate on real-world products.
+                Through active organizational involvement, I have learned to work as a team with communication and creativity skills that directly enhance how I collaborate on real-world products.
               </p>
               
               <p className="lead-text">
