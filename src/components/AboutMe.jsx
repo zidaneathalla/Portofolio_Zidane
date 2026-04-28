@@ -35,7 +35,7 @@ const AboutMe = () => {
               </p>
               
               <p className="lead-text">
-                I am passionate about continuously developing my expertise in UI/UX, front-end development, data visualization, and graphic design.
+                I am passionate on continuously developing my expertise in UI/UX, front-end development, data analyst, data visualization, and graphic design.
               </p>
             </div>
 
@@ -43,7 +43,7 @@ const AboutMe = () => {
               <div className="about-ready-pill" role="note" aria-label="I'm ready for rotating skills">
                 <span className="about-ready-label">I'm ready for</span>
                 <RotatingText
-                  texts={['UI/UX Design', 'Front-End Development', 'Data Visualization', 'Graphic Design']}
+                  texts={['UI/UX Design', 'Front-End Development', 'Data Visualization', 'Data Analyst', 'Graphic Design']}
                   mainClassName="about-ready-rotating"
                   staggerFrom="last"
                   initial={{ y: '100%' }}
