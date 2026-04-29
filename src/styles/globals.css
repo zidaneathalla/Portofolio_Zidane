@@ -11,7 +11,7 @@
   --bg-light: #f8f9fa;
   --border-color: #e2e8f0;
   --transition: all 0.3s ease;
-  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'San Francisco', sans-serif;
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'San Francisco', sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'San Francisco', sans-serif;
   --heading-accent: #ff3d81;
 }
@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }
 
 p {
