@@ -27,15 +27,15 @@ const AboutMe = () => {
             
             <div className="about-description">
               <p className="lead-text">
-                I am a 6th-semester student at IPB University majoring in Software Engineering Technology, with hands-on experience in front-end development and UI/UX design, building responsive user-friendly interfaces that feel as good as they look.
+                I am a 6th-semester Software Engineering Technology student at IPB University with hands-on experience in UI/UX design and front-end development. I specialize in creating responsive, user-centered interfaces that balance functionality and visual appeal using technologies like React, Next.js, HTML, JavaScript, etc.
+              </p>
+
+              <p className="lead-text">
+                I have contributed to multiple projects, including a restaurant management system (CIFOS), a logistics company profile website (Mitra Jasa Power), an interactive Unity-based board and card game (Teral), and a marketplace platform for ornamental fish (iQuarium). Through these experiences, I have developed strong skills in translating user and client requirements into intuitive digital solutions.
               </p>
               
               <p className="lead-text">
-                Through active organizational involvement, I have learned to work as a team with communication and creativity skills that directly enhance how I collaborate on real-world products.
-              </p>
-              
-              <p className="lead-text">
-                I am passionate on continuously developing my expertise in UI/UX, front-end development, data analyst, data visualization, and graphic design.
+                In addition to technical expertise, my involvement in organizations has strengthened my teamwork, communication, and creativity skills that I actively apply when collaborating on real-world products. I am passionate about continuously growing in UI/UX, front-end development, data analysis, data visualization, and graphic design.
               </p>
             </div>
 
