@@ -11,6 +11,8 @@ const tools = [
   { name: 'CSS', src: `${DEVICON}/css3/css3-original.svg` },
   { name: 'JavaScript', src: `${DEVICON}/javascript/javascript-original.svg` },
   { name: 'TypeScript', src: `${DEVICON}/typescript/typescript-original.svg` },
+  { name: 'Node.js', src: `${DEVICON}/nodejs/nodejs-original.svg` },
+  { name: 'PHP', src: `${DEVICON}/php/php-original.svg` },
   { name: 'React', src: `${DEVICON}/react/react-original.svg` },
   { name: 'Tailwind', src: `${DEVICON}/tailwindcss/tailwindcss-original.svg` },
   { name: 'Canva', src: `${DEVICON}/canva/canva-original.svg` },
